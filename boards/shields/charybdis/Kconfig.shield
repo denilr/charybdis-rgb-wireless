@@ -15,3 +15,6 @@ config SHIELD_DONGLE_YADS_PROSPECTOR
 
 config SHIELD_DONGLE_NICE
 	def_bool $(shields_list_contains,dongle_nice)
+
+config SHIELD_CHARYBDIS_DONGLE
+	def_bool $(shields_list_contains,charybdis_dongle)

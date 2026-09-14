@@ -19,10 +19,10 @@ include:
   cmake-args: -DCONFIG_ZMK_STUDIO=y
 # YADS Prospector dongle - disabled pending zmk-dongle-screen Zephyr 4.1 fix
 # See: https://github.com/janpfischer/zmk-dongle-screen/issues/29
-# - board: xiao_ble
-#   shield: dongle_yads_prospector dongle_screen
-#   snippet: studio-rpc-usb-uart
-#   cmake-args: -DCONFIG_ZMK_STUDIO=y
+ - board: xiao_ble
+   shield: dongle_yads_prospector dongle_screen
+   snippet: studio-rpc-usb-uart
+   cmake-args: -DCONFIG_ZMK_STUDIO=y
 
  Dongle mode - nice_nano dongle with OLED display
 - board: nice_nano//zmk
